@@ -51,13 +51,13 @@
                 placeholder="Search Mockups, Logos..."
                 required
                 oninput="searchCards(this.value)"
-            />
-            <button
+              />
+              <button
                 type="submit"
                 class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
+              >
                 Search
-            </button>
+              </button>
             </div>
           </form>
         </div>
@@ -66,18 +66,7 @@
             class="flex items-center justify-between rounded-lg flex-wrap bg-teal-500 p-6"
           >
             <div class="flex items-center flex-shrink-0 text-white mr-6">
-              <svg
-                class="fill-current h-8 w-8 mr-2"
-                width="54"
-                height="54"
-                viewBox="0 0 54 54"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
-                />
-              </svg>
-              <span class="font-semibold text-xl tracking-tight">Home</span>
+              <a href="index.html" class="font-semibold text-xl tracking-tight">Home</a>
             </div>
             <div class="block lg:hidden">
               <button
@@ -110,10 +99,10 @@
                   Contact
                 </a>
                 <a
-                  href="#responsive-header"
+                  href="/dist/add.html"
                   class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
                 >
-                  Blog
+                  Add Product
                 </a>
               </div>
             </div>
@@ -124,129 +113,173 @@
       <!-- img crouesl -->
       <div>
         <div class="container mx-auto">
-          <div class="carousel-container relative w-full max-w-screen-lg mx-auto">
-              <div class="carousel-slider flex">
-                  <!-- Image 1 -->
-                  <div class="carousel-slide">
-                      <img src="https://media.istockphoto.com/id/1469686707/photo/delivery-worker-hands-holding-medications-parcel.webp?b=1&s=170667a&w=0&k=20&c=As2l2mu1kdWJqxjVLaOyFHr8cniu09IsBN12s7e1T08=" alt="Image 1" class="w-full h-auto">
-                  </div>
-  
-                  <!-- Image 2 -->
-                  <div class="carousel-slide">
-                      <img src="https://media.istockphoto.com/id/1406929269/photo/mature-pharmacist-at-counter-smiling.webp?b=1&s=170667a&w=0&k=20&c=-HM0y_7krwH2xhkVGHVXi0CR8vKPBi2FZJWRmim9e8Q=" alt="Image 2" class="w-full h-auto">
-                  </div>
-  
-                  <!-- Image 3 -->
-                  <div class="carousel-slide">
-                      <img src="https://media.istockphoto.com/id/1419246395/photo/mid-adult-woman-buying-prescription-medicine-in-drugstore.webp?b=1&s=170667a&w=0&k=20&c=Qeyrt3fwQVyfojXztghjDd5XZnX83HCm_Y8-gJxqckw=" alt="Image 3" class="w-full h-auto">
-                  </div>
-                  <!-- Image 4 -->
-                  <div class="carousel-slide">
-                    <img src="https://media.istockphoto.com/id/1437781240/photo/empty-white-marble-counter-top-with-blur-pharmacy-drugstore-shelves-background.webp?b=1&s=170667a&w=0&k=20&c=qREYh83NXkY_g-GKtaytnP61ihO8nHHZY6z4wz6kkyg=" alt="Image 3" class="w-full h-auto">
-                </div>
-                <!-- Image 5 -->
-                <div class="carousel-slide">
-                  <img src="https://media.istockphoto.com/id/1471839731/photo/a-young-woman-pharmacist-arranges-medicines-on-the-shelves-of-the-pharmacy.webp?b=1&s=170667a&w=0&k=20&c=Wwe5fIodBkj_7Q1Ca-NaL3Ubojz9-2NhPcyaW93daDA=" alt="Image 3" class="w-full h-auto">
+          <div
+            class="carousel-container relative w-full max-w-screen-lg mx-auto"
+          >
+            <div class="carousel-slider flex">
+              <!-- Image 1 -->
+              <div class="carousel-slide">
+                <img
+                  src="https://media.istockphoto.com/id/1469686707/photo/delivery-worker-hands-holding-medications-parcel.webp?b=1&s=170667a&w=0&k=20&c=As2l2mu1kdWJqxjVLaOyFHr8cniu09IsBN12s7e1T08="
+                  alt="Image 1"
+                  class="w-full h-auto"
+                />
               </div>
+
+              <!-- Image 2 -->
+              <div class="carousel-slide">
+                <img
+                  src="https://media.istockphoto.com/id/1406929269/photo/mature-pharmacist-at-counter-smiling.webp?b=1&s=170667a&w=0&k=20&c=-HM0y_7krwH2xhkVGHVXi0CR8vKPBi2FZJWRmim9e8Q="
+                  alt="Image 2"
+                  class="w-full h-auto"
+                />
               </div>
-  
-              <!-- Previous Button -->
-              <button id="prevBtn" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none">
-                  Previous
-              </button>
-  
-              <!-- Next Button -->
-              <button id="nextBtn" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none">
-                  Next
-              </button>
+
+              <!-- Image 3 -->
+              <div class="carousel-slide">
+                <img
+                  src="https://media.istockphoto.com/id/1419246395/photo/mid-adult-woman-buying-prescription-medicine-in-drugstore.webp?b=1&s=170667a&w=0&k=20&c=Qeyrt3fwQVyfojXztghjDd5XZnX83HCm_Y8-gJxqckw="
+                  alt="Image 3"
+                  class="w-full h-auto"
+                />
+              </div>
+              <!-- Image 4 -->
+              <div class="carousel-slide">
+                <img
+                  src="https://media.istockphoto.com/id/1437781240/photo/empty-white-marble-counter-top-with-blur-pharmacy-drugstore-shelves-background.webp?b=1&s=170667a&w=0&k=20&c=qREYh83NXkY_g-GKtaytnP61ihO8nHHZY6z4wz6kkyg="
+                  alt="Image 3"
+                  class="w-full h-auto"
+                />
+              </div>
+              <!-- Image 5 -->
+              <div class="carousel-slide">
+                <img
+                  src="https://media.istockphoto.com/id/1471839731/photo/a-young-woman-pharmacist-arranges-medicines-on-the-shelves-of-the-pharmacy.webp?b=1&s=170667a&w=0&k=20&c=Wwe5fIodBkj_7Q1Ca-NaL3Ubojz9-2NhPcyaW93daDA="
+                  alt="Image 3"
+                  class="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <!-- Previous Button -->
+            <button
+              id="prevBtn"
+              class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none"
+            >
+              Previous
+            </button>
+
+            <!-- Next Button -->
+            <button
+              id="nextBtn"
+              class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none"
+            >
+              Next
+            </button>
           </div>
-      </div>
-      </div>
-      
-      <div class="card1 flex justify-center items-center m-9">
-        <div class="card-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          
         </div>
-        
+      </div>
+
+      <div class="card1 flex justify-center items-center m-9">
+        <div
+          class="card-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        >
+          <!-- card -->
+        </div>
+
         <!--  -->
       </div>
       <div class="m-9 bg-sky-400 rounded-md">
-        <div class="m-6 mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-center">
-        <div class="container mx-auto">
-          <h1 class="text-2xl font-bold mb-4 pt-5">Testimonials</h1>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        <div
+          class="m-6 mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-center"
+        >
+          <div class="container mx-auto">
+            <h1 class="text-2xl font-bold mb-4 pt-5">Testimonials</h1>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4"
+            >
               <!-- Testimonial 1 -->
               <div class="bg-white p-4 rounded-lg shadow-md">
-                  <div class="mb-2">
-                      <img src="https://harshit.biz/assets/img/profile.jpeg" alt="User" class="w-12 h-12 rounded-full">
-                  </div>
-                  <div class="bg-slate-300 rounded-lg">
-
-                    <p class="text-gray-800 text-sm leading-relaxed ">
-                      "Amazing Services, Fastes ServicesI ever see provided by medicaleshop"
-                    </p>
-                    <p class="text-gray-600 text-xs mt-2">- John Doe</p>
-                  </div>
+                <div class="mb-2">
+                  <img
+                    src="https://harshit.biz/assets/img/profile.jpeg"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                </div>
+                <div class="bg-slate-300 rounded-lg">
+                  <p class="text-gray-800 text-sm leading-relaxed">
+                    "Amazing Services, Fastes ServicesI ever see provided by
+                    medicaleshop"
+                  </p>
+                  <p class="text-gray-600 text-xs mt-2">- John Doe</p>
+                </div>
               </div>
-  
+
               <!-- Testimonial 2 -->
               <div class="bg-white p-4 rounded-lg shadow-md">
-                  <div class="mb-2">
-                      <img src="https://harshit.biz/assets/img/profile.jpeg" alt="User" class="w-12 h-12 rounded-full">
-                  </div>
-                  <div class="bg-slate-300 rounded-lg">
-                    
-                    <p class="text-gray-800 text-sm leading-relaxed">
-                      "Best Services and Fastest Delivery, it provides the best services in the current market."
-                    </p>
-                    <p class="text-gray-600 text-xs mt-2">- Jane Smith</p>
-                  </div>
+                <div class="mb-2">
+                  <img
+                    src="https://harshit.biz/assets/img/profile.jpeg"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                </div>
+                <div class="bg-slate-300 rounded-lg">
+                  <p class="text-gray-800 text-sm leading-relaxed">
+                    "Best Services and Fastest Delivery, it provides the best
+                    services in the current market."
+                  </p>
+                  <p class="text-gray-600 text-xs mt-2">- Jane Smith</p>
+                </div>
               </div>
-  
+
               <!-- Testimonial 3 -->
               <div class="bg-white p-4 rounded-lg shadow-md">
-                  <div class="mb-2">
-                      <img src="https://harshit.biz/assets/img/profile.jpeg" alt="User" class="w-12 h-12 rounded-full">
-                  </div>
-                  <div class="bg-slate-300 rounded-lg">
-
-                    <p class="text-gray-800 text-sm leading-relaxed">
-                      "Best Discounted Prices, I ever see in the current market."
-                    </p>
-                    <p class="text-gray-600 text-xs mt-2">- Emily Johnson</p>
-                  </div>
+                <div class="mb-2">
+                  <img
+                    src="https://harshit.biz/assets/img/profile.jpeg"
+                    alt="User"
+                    class="w-12 h-12 rounded-full"
+                  />
+                </div>
+                <div class="bg-slate-300 rounded-lg">
+                  <p class="text-gray-800 text-sm leading-relaxed">
+                    "Best Discounted Prices, I ever see in the current market."
+                  </p>
+                  <p class="text-gray-600 text-xs mt-2">- Emily Johnson</p>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
-
         </div>
       </div>
     </div>
     <footer class="mt-8 text-center text-gray-600 pb-3">
       &copy; 2023 Your Company Name. All rights reserved.
-  </footer>
+    </footer>
     <script>
       // JavaScript for image carousel
-      const prevBtn = document.getElementById('prevBtn');
-      const nextBtn = document.getElementById('nextBtn');
-      const slider = document.querySelector('.carousel-slider');
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const slider = document.querySelector(".carousel-slider");
 
       let currentIndex = 0;
 
-      prevBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex - 1 + 3) % 3;
-          updateSlider();
+      prevBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + 3) % 3;
+        updateSlider();
       });
 
-      nextBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex + 1) % 3;
-          updateSlider();
+      nextBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % 3;
+        updateSlider();
       });
 
       function updateSlider() {
-          const offset = currentIndex * -100;
-          slider.style.transform = `translateX(${offset}%)`;
+        const offset = currentIndex * -100;
+        slider.style.transform = `translateX(${offset}%)`;
       }
-  </script>
+    </script>
   </body>
 </html>

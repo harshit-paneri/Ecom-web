@@ -41,7 +41,6 @@ const cardData = [{
 
 const postMethod = ()=>{
     cardData.map((postData)=>{
-        console.log(postData)
         const postElement =  document.createElement('div')
         postElement.classList.add('card')
         postElement.innerHTML = `
